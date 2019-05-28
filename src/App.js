@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     color: ${props => props.theme.colors.text};
     background:  ${props => props.theme.colors.background};
-    line-height: ${props => props.theme.lineHeights[2]}
+    line-height: ${props => props.theme.lineHeights[2]};
   }
 `
 

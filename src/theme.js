@@ -9,6 +9,9 @@ const baseColors = {
   primaryBtn: "#007bff",
   secondaryBtn: "#6c757d",
   minimalBtn: "#6c757d"
+  // buttons: {
+  //   primary: "#007bff"
+  // }
 }
 
 const colors = {
@@ -20,10 +23,12 @@ const colors = {
       primary: "#2e3030",
       secondary: "#f0e",
       gray: "#222",
+      darkGray: "#fbfbfb",
       lightgray: "#111",
       primaryBtn: "#375a7f",
       secondaryBtn: "#444",
-      minimalBtn: "#fff"
+      minimalBtn: "#fff",
+      black: "#101010"
     },
     light: baseColors
   }
