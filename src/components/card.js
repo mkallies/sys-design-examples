@@ -5,11 +5,14 @@ import { Button } from "./button"
 
 export const Card = () => {
   return (
-    <Box borderRadius="10px" px={3} width={0.3} maxWidth="33%" mb={4}>
+    <Box px={3} flex="0" flexBasis={1 / 3} mb={4}>
       <Box
         flexDirection="column"
-        boxShadow="0 .125rem .25rem rgba(0,0,0,.075)"
-        border="1px solid rgba(0,0,0,.125)"
+        boxShadow="0 .2rem .4rem rgba(0,0,0,.075)"
+        border="1px solid"
+        borderColor="lightGray"
+        borderRadius=".3rem"
+        overflow="hidden"
       >
         <Box
           bg="darkGray"
@@ -17,22 +20,26 @@ export const Card = () => {
           justifyContent="center"
           height="225px"
         >
-          <Text color="gray">Thumbnail</Text>
+          <Text color="gray" fontSize={3}>
+            Thumbnail
+          </Text>
         </Box>
 
         <Box p={3} display="block">
-          <Text>
+          <Text fontSize={2}>
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This content is a little bit longer.
           </Text>
 
-          <Box justifyContent="space-between">
+          <Box mt={3} justifyContent="space-between" alignItems="center">
             <Box>
-              <Button>View</Button>
-              <Button>Edit</Button>
+              <Button mr={1} variant="minimal">
+                View
+              </Button>
+              <Button variant="minimal">Edit</Button>
             </Box>
 
-            <Text>9 mins</Text>
+            <Text fontSize={0}>9 mins</Text>
           </Box>
         </Box>
       </Box>

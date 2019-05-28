@@ -9,6 +9,7 @@ import {
   flex,
   flexDirection,
   flexWrap,
+  flexBasis,
   height,
   justifyContent,
   maxHeight,
@@ -31,6 +32,7 @@ export const Box = styled.div`
   ${display}
   ${flex}
   ${flexDirection}
+  ${flexBasis}
   ${opacity}
   ${flexWrap}
   ${height}
